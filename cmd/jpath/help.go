@@ -7,14 +7,14 @@ import (
 
 func print_help() {
 	text := `
-jsonpath v{ver}
+jpath {ver}
 https://github.com/jabbalaci/go-jsonpath
 
 Print every path / value pair in a JSON document.
 
 Usage:
 
-    jsonpath <input.json>
+    jpath <input.json>
 `
 	text = strings.TrimLeft(text, "\n")
 	text = strings.Replace(text, "{ver}", VERSION, 1)

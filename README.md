@@ -1,7 +1,12 @@
-JSON Path
-=========
+jpath
+=====
 
 Find the path of a key / value in a JSON hierarchy *easily*.
+
+The original name of the project was "JSON Path", but
+it turned out that there is a specification called like this,
+so I renamed it to **jpath**. This project has nothing
+to do with the JSON path specification.
 
 Motivation
 ----------
@@ -14,7 +19,7 @@ pair you need, but then it can be a pain to get the full path of the key.
 Installation
 ------------
 
-    $ go install github.com/jabbalaci/go-jsonpath/cmd/jsonpath@latest
+    $ go install github.com/jabbalaci/go-jsonpath/cmd/jpath@latest
 
 Example
 -------
@@ -43,11 +48,11 @@ Consider the following JSON file:
 }
 ```
 
-JSON Path will traverse it recursively and print every
+jpath will traverse it recursively and print every
 path / value pair:
 
 ```bash
-$ jsonpath samples/short.json
+$ jpath samples/short.json
 root["a"] => 1
 root["b"]["c"] => 2
 root["b"]["friends"][0]["best"] => "Alice"
@@ -64,7 +69,7 @@ The idea is to combine its usage with the Unix command
 leads to Bob?
 
 ```bash
-$ jsonpath samples/short.json | grep -i bob
+$ jpath samples/short.json | grep -i bob
 root["b"]["friends"][1]["second"] => "Bob"
 ```
 
@@ -87,3 +92,6 @@ Related Works
 
 * [JSON-path](https://github.com/jabbalaci/JSON-path): my original Python implementation. This project is the same,
 re-written in Go.
+* [gron](https://github.com/tomnomnom/gron): gron makes
+JSON greppable. gron can do a lot more than jpath, but
+when I made jpath I didn't know about gron.

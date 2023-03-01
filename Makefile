@@ -2,10 +2,10 @@ cat:
 	cat Makefile
 
 run:
-	go run ./cmd/jsonpath
+	go run ./cmd/jpath
 
 build:
-	go build ./cmd/jsonpath
+	go build ./cmd/jpath
 
 install:
-	go install ./cmd/jsonpath
+	go install ./cmd/jpath
