@@ -1,0 +1,37 @@
+{
+    "error": 0,
+    "message": "",
+    "data": {
+        "date_played": 1504871310,
+        "title": "The Alibi",
+        "tags": ["c64", "slay", "radio", "remix"],
+        "album": "",
+        "r64_vote": "5",
+        "r64_id": "4194",
+        "requestID": "0",
+        "my_vote": null,
+        "picture": "",
+        "next_song_date": 1504871766,
+        "next_song": {
+            "title": "Delta",
+            "album": "",
+            "filename": "M:\\Mp3\\c64\\rko\\Peter Connolly - Delta.mp3",
+            "live": 0,
+            "artist": "Peter Connolly"
+        },
+        "filename": "c64\\rko\\Mordi - The Alibi.mp3",
+        "vote_percent": "94.8718",
+        "requestedBy": "",
+        "next_poll": 15,
+        "duration": 228,
+        "num_votes": "117",
+        "id": "3683",
+        "live": 0,
+        "website": "",
+        "albumyear": "2009",
+        "listeners": "90",
+        "next_song_expected": -15,
+        "artist": "Mordi",
+        "sid_path": "MUSICIANS/L/Laxity/Alibi.sid"
+    }
+}
