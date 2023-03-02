@@ -8,6 +8,8 @@ it turned out that there is a specification called like this,
 so I renamed it to **jpath**. This project has nothing
 to do with the JSON path specification.
 
+(It turned out that IBM has a query language called [JPath](https://www.ibm.com/docs/en/dsm?topic=protocol-jpath). This project has nothing to do with that.)
+
 Motivation
 ----------
 
